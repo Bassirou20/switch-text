@@ -10,7 +10,9 @@ body {
   background: #c5c5c5;
   padding-top: 20px;
 }
-
+.select{
+  background-color: blue;
+}
 .gauche,
 .droit {
   width: 30rem;
