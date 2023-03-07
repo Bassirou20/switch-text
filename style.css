@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    overflow-x: hidden;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    background: rgb(197, 197, 197);
+}
+
+.gauche,.droite{
+    width: 30rem;
+    height: 30rem;
+    background: white;
+   
+}
+.gauche >p
+{
+    padding: 1em;
+    margin: 1em 0;
+}
+.gauche>p:hover
+{
+    background-color: blue;
+    cursor: pointer;
+}
+
+
+.action{
+    width: 20rem;
+    display: flex;
+    flex-direction: column;
+    line-height: 20rem;
+    font-size: 5rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.action button{
+    width: 10rem;
+    height: 2rem;
+}
